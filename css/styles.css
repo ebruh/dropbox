@@ -49,8 +49,13 @@
     margin-top: 1%;
 }
 .second{
-    margin-top: 5%;
-    margin-left: 600px;
+    align-self: flex-end;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.second h4 span {
+    margin: 5px;
 }
 
 i {
@@ -69,10 +74,7 @@ i {
     padding-right: 30px;
 }
 
-.five{
-    font-size: 10px;
-    
-}
+
 
 .uppgrade{
     padding-left: 20px;
