@@ -117,3 +117,9 @@ a:focus {
 .upload-section {
     display: flex;
 }
+.sidenav {
+   display: grid
+}
+.bottom {
+    align-self: flex-end;
+}
