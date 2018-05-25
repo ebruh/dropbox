@@ -1,0 +1,80 @@
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #444c63;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #828eae;
+    display: block;
+    padding-left: 20%;
+}
+
+.sidenav a:hover{
+    color: #f0f0f2;
+    display: block;
+
+}
+
+.five{
+    color: white;
+    font-size: 100%
+   
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.spaceme{
+    margin-left: 250px;
+}
+.spaceme1{
+    margin-left: 1000px;
+}
+.first{
+    margin-top: 1%;
+}
+.second{
+    margin-top: 5%;
+    margin-left: 600px;
+}
+
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.prog{
+    padding-left: 25px;
+    padding-right: 30px;
+}
+
+.five{
+    font-size: 10px;
+    
+}
+
+.uppgrade{
+    padding-left: 20px;
+}
+
+a:focus {
+    color: #FFF !important;
+}
