@@ -26,7 +26,10 @@
 
 .five{
     color: white;
-    font-size: 100%
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
    
 }
 
@@ -77,4 +80,38 @@ i {
 
 a:focus {
     color: #FFF !important;
+}
+.tran-background {
+    background:  transparent !important;
+    
+}
+.icon {
+    color: #46b8da !important; 
+}
+.dropbox-badges {
+    background: transparent !important;
+    border: solid 0.1rem #46b8da !important;
+}
+.getting-started {
+    display: flex ! important;
+    justify-content: space-between;
+}
+.bell {
+    display: flex;
+    justify-content: flex-end; 
+}
+.upload {
+    position:absolute;
+    z-index:2;
+    top:0;
+    left:0;
+    filter: 
+    alpha(opacity=0);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity:0;
+    background-color:transparent;
+    color:transparent;
+}
+.upload-section {
+    display: flex;
 }
