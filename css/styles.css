@@ -130,8 +130,8 @@ a:focus {
 .overlay{
     position: absolute;
     content:" ";
-    width:241px;
-    height:150px;
+    width:186px;
+    height:115px;
     display: none;
     z-index:2;
     background-color: rgba(0,0,0,0.5);
@@ -145,7 +145,7 @@ a:focus {
   .checkmark {
       color: #46b8da !important;
       position: absolute;
-      right: 26px;
+      right: 12px;
       top: 14px;
   }
  
