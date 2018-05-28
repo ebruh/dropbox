@@ -124,8 +124,28 @@ a:focus {
     align-self: flex-end;
 }
 
- img:hover {
-  color: black;
-  opacity: 0.4;
 
-}
+
+  
+.overlay{
+    position: absolute;
+    content:" ";
+    width:241px;
+    height:150px;
+    display: none;
+    z-index:2;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  .thumbnail-body:hover > .overlay{
+    display: block !important;
+    cursor: pointer;
+  }
+
+  .checkmark {
+      color: #46b8da !important;
+      position: absolute;
+      right: 26px;
+      top: 14px;
+  }
+ 
